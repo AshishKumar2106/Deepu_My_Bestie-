@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fff0f5, #e6e6ff); /* Soft pink to lavender */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    max-width: 700px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff4d88; /* Warm pink */
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #555;
+    font-size: 22px;
+    font-style: italic;
+}
+
+h2 {
+    color: #ff80aa; /* Softer pink */
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.quote-box {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.quote {
+    font-size: 20px;
+    color: #666;
+    margin: 15px 0;
+    transition: color 0.3s ease;
+}
+
+.quote:hover {
+    color: #ff4d88;
+}
+
+.messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+.messages li {
+    font-size: 20px;
+    color: #777;
+    margin: 15px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.messages li:hover {
+    transform: scale(1.05);
+}
+
+#warmBtn {
+    padding: 15px 35px;
+    font-size: 18px;
+    background-color: #ff80aa;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#warmBtn:hover {
+    background-color: #ff4d88;
+    transform: scale(1.1);
+}
+.photo {
+    width: 250px;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.gallery-container {
+    background: linear-gradient(135deg, rgba(255, 215, 186, 0.8), rgba(255, 182, 193, 0.8)), 
+                url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M10 17.5l-1.5-1.4C4.5 12.5 2 10.3 2 7.5 2 5 4 3 6.5 3c1.3 0 2.5.6 3.5 1.6C11 3.6 12.2 3 13.5 3 16 3 18 5 18 7.5c0 2.8-2.5 5-6.5 8.6L10 17.5z" fill="rgba(255,255,255,0.3)"/></svg>') repeat;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    max-width: 700px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.gallery-photo {
+    width: 350px;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-photo:hover {
+    transform: scale(1.05);
+}
+
+#nextBtn {
+    padding: 15px 35px;
+    font-size: 18px;
+    background-color: #d4a373; /* Rose gold */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#nextBtn:hover {
+    background-color: #ff9999; /* Deep blush */
+    transform: scale(1.1);
+}
